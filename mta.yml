@@ -1,0 +1,9 @@
+applications:
+- name: trial
+  disk_quota: 8G
+  instances: 1
+  memory: 2G
+  routes:
+  - route: trial.cfapps.us10-001.hana.ondemand.com
+
+

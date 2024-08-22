@@ -10,9 +10,7 @@ modules:
     path: .
     parameters:
       memory: 256M
-    build-parameters:
-      builder: custom
-      commands:
-        - pip install -r requirements.txt
+    
+      
    
 

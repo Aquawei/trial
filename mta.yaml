@@ -1,0 +1,18 @@
+_schema-version: "3.1"
+ID: trial
+version: 1.0.0
+
+description: "This is a simple Python-based MTA application"
+
+modules:
+  - name: python-app
+    type: python
+    path: .
+    parameters:
+      memory: 256M
+    build-parameters:
+      builder: custom
+      commands:
+        - pip install -r requirements.txt
+   
+

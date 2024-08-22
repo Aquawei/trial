@@ -5,7 +5,7 @@ version: 1.0.0
 description: "This is a simple Python-based MTA application"
 
 modules:
-  - name: python-app
+  - name: trial
     type: python
     path: .
     parameters:

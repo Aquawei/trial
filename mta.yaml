@@ -10,6 +10,11 @@ modules:
     path: .
     parameters:
       memory: 256M
+      buildpack: python_buildpack
+      command: "python Trial.py"  
+
+    
+     
     
       
    

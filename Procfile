@@ -1,1 +1,1 @@
-web: python trial.py
+python trial.py

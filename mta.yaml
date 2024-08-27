@@ -11,6 +11,7 @@ modules:
     parameters:
       memory: 256M
       buildpack: python_buildpack
+      command: python trial.py
        
 
     
